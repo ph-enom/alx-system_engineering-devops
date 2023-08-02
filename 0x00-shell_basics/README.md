@@ -1,1 +1,1 @@
-displays UID and GID and hidden files long format
+script that creates a directory named my_first_directory in the /tmp/ directory
