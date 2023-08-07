@@ -1,1 +1,1 @@
-a shell script that creates a file named exactly multiple special characters containing the text Best School ending by a new line
+a script that writes into the file ls_cwd_content the result of the command ls -la
