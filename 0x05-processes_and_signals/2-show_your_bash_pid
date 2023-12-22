@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
-# Displays the PID along with the process name, of
+# Displays the PID along with the process name of 
 #+ processes whose name contains the word "bash".
 
+# Get the PID and process name of the script
+script_pid=$$
+script_name=$(ps -p $script_pid -o comm=)
+
+# Displays the PID along with the process name
 pgrep bash -l
