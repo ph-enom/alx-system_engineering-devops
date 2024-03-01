@@ -9,6 +9,9 @@ package { 'python3-pip':
 package { 'Flask':
   ensure   => '2.1.0',
   provider => 'pip3',
-  require  => Package['python3-pip'],
+}
+
+exec { 'werkzeug':
+  command => '/usr/bin/pip3 install Werkzeug==2.1.1',
 }
 
