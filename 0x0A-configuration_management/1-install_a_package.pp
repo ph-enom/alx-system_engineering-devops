@@ -1,4 +1,7 @@
 #!/usr/bin/pup
+# This Puppet Manifest installs Flask using pip3
+
+
 package { 'python3-pip':
   ensure => installed,
 }
